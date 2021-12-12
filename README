@@ -1,5 +1,14 @@
-README for minisip
-==================
+libmutil is a library of C++ functions, used in "Asperes", an audio <--> image
+processing software
+
+It was originally created as part of the now defunct minisip project:
+https://github.com/csd/minisip
+
+I have copied the code and made modifications so it will run on a modern OS
+
+
+Original README for minisip
+===========================
 
 Minisip is a SIP user agent. It implements both normal and secured
 (SRTP/MIKEY) VoIP calls.
