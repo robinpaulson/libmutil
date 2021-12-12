@@ -1,0 +1,13 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+pkglibdir=${libdir}/libmutil
+includedir=${prefix}/include
+pkgincludedir=${includedir}/libmutil
+
+Name: libmutil
+Description: Minisip Utility Toolkit Implementation Library (MUTIL)
+Version: 0.8.0+rUnversioned directory
+Libs: -L${libdir} -lmutil
+Libs.private: -ldl -lpthread 
+Cflags: -I${includedir}  -DHAVE_STRUCT_TIMEZONE -DHAVE_GETTIMEOFDAY
